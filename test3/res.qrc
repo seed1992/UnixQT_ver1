@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>kc50v2.mp3</file>
+        <file>kc50v4.mp3</file>
+        <file>kc50v3.mp3</file>
+        <file>kc50v5.mp3</file>
+        <file>kc50v6.mp3</file>
+        <file>kc50v7.mp3</file>
+        <file>kc50v8.mp3</file>
+        <file>kc50v9.mp3</file>
+        <file>kc50v10.mp3</file>
+        <file>kc50v11.mp3</file>
+        <file>kc50v12.mp3</file>
+        <file>kc50v13.mp3</file>
+        <file>kc50v14.mp3</file>
+        <file>kc50v15.mp3</file>
+        <file>kc50v16.mp3</file>
+        <file>kc50v17.mp3</file>
+        <file>kc50v18.mp3</file>
+        <file>kc50v19.mp3</file>
+        <file>kc50v20.mp3</file>
+        <file>kc50v21.mp3</file>
+        <file>kc50v22.mp3</file>
+        <file>kc50v23.mp3</file>
+        <file>kc50v24.mp3</file>
+        <file>kc50v25.mp3</file>
+        <file>kc50v26.mp3</file>
+        <file>kc50v27.mp3</file>
+        <file>kc50v28.mp3</file>
+    </qresource>
+</RCC>
