@@ -28,4 +28,7 @@
         <file>kc50v27.mp3</file>
         <file>kc50v28.mp3</file>
     </qresource>
+    <qresource prefix="/images">
+        <file>shimakazetrans.png</file>
+    </qresource>
 </RCC>

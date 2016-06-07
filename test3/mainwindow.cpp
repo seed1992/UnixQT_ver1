@@ -9,15 +9,14 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     //setStyleSheet("background:white;");
-    QAction *qu = new QAction("&Qu",this);
+    QAction *qu = new QAction("&Quit",this);
     setFixedSize(510,900);
     setWindowTitle(tr("Context Menu Show 1"));
      //add QActions
     addAction(new QAction(tr("&Open"), this));
     addAction(new QAction(QIcon(":/images/mark.png"), tr("&Mark"), this));
-    addAction(new QAction(tr("&Quit"), this));
     addAction(qu);
-    //設定 contextMenuPolicy属性值为 '以Actions为弹出菜单的菜单项组成菜单'
+    //設定 contextMenuPolicy屬性值 以Actions為context menu
     setContextMenuPolicy(Qt::ActionsContextMenu);
     connect(qu,SIGNAL(triggered()),qApp,SLOT(quit()));
 
