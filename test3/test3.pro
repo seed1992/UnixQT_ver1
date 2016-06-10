@@ -14,11 +14,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    clisupport.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    clisupport.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    clisupport.ui
 
 RESOURCES += \
     res.qrc

@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     w.setWindowOpacity(1);
     w.setWindowFlags(Qt::FramelessWindowHint);
     w.setAttribute(Qt::WA_TranslucentBackground);
+    //w.setWindowFlags(Qt::WindowStaysOnTopHint);
     //transparent
     w.show();
 
